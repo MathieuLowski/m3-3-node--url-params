@@ -1,1 +1,57 @@
 /* song page css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 3px 3px 3px 3px slategray;
+  background-color: white;
+  margin: 300px;
+  margin-top: 150px;
+  border-radius: 1em;
+}
+.title {
+  font-size: 35px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  border-bottom: slategray solid 2px;
+}
+.artist {
+  margin-top: 15px;
+  font-size: 25px;
+}
+.streams {
+  font-size: 300px;
+  font-weight: 700;
+  color: slategray;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*  
+const handleSong = (res, req) => {
+    const rank = req.params.rank-1;
+    if(top50[rank]){
+    res.render(`page/song1`, {
+      title: "Song #",
+    });
+} else {
+
+}
+  }; 
+  */
